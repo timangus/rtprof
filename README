@@ -1,0 +1,22 @@
+rtprof - Real Time Profiler
+---------------------------
+
+Who? Tim Angus <tim@ngus.net>
+
+What? A profiling tool that works in real time and provides a pretty 3D
+visualisation of the profle.
+
+Why? I dunno, seemed like a good idea at the time...
+
+Where? Edinburgh University, for my undergraduate dissertation.
+
+When? 2002-2003.
+
+How?
+
+  * Compile the client program with "-finstrument-functions -g" in CFLAGS and
+    "-lrtprof" in LIBS.
+  * Fire up "rtprof <client program binary>".
+  * Execute "RTPROF_SKT=rtprof://localhost <client program>"
+  * Move around the visualisation using keys W A S D, LSHIFT, LCTRL.
+
